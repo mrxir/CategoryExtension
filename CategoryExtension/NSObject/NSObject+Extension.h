@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+#import <UIKit/UIKit.h>
+
 @interface NSObject (Extension)
 
 /**
@@ -38,6 +40,7 @@
 
  @return NSDictionary
  */
-- (NSDictionary *)dictionary;
+
++ (NSDictionary *)propertyWithObject:(__kindof NSObject *)object;
 
 @end

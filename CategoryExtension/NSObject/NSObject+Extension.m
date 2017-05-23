@@ -87,18 +87,18 @@
     
 }
 
-- (NSDictionary *)dictionary
++ (NSDictionary *)propertyWithObject:(__kindof NSObject *)object
 {
     NSMutableDictionary *dictionary = [NSMutableDictionary dictionary];
     
     unsigned int propertyCount;
     
-    objc_property_t *properties = class_copyPropertyList([self class], &propertyCount);
+    objc_property_t *properties = class_copyPropertyList([object class], &propertyCount);
     
     for (int i=0; i<propertyCount; i++) {
         objc_property_t property = properties[i];
         NSString *propertyName = [NSString stringWithUTF8String:property_getName(property)];
-        id value = [self getObjectInternalValue:[self valueForKey:propertyName]];
+        id value = [self getObjectInternalValue:[object valueForKey:propertyName]];
         dictionary[propertyName] = value;
     }
     
@@ -112,6 +112,7 @@
         || [obj isKindOfClass:[NSNull class]]
         || [obj isKindOfClass:[NSNumber class]]
         || [obj isKindOfClass:[NSString class]]) {
+        
         return obj;
     }
     
@@ -121,6 +122,7 @@
         for (int i=0; i<arrayObj.count; i++) {
             [array setObject:[self getObjectInternalValue:[arrayObj objectAtIndex:i]] atIndexedSubscript:i];
         }
+        
         return array;
     }
     
@@ -130,10 +132,11 @@
         for (NSString *key in dictionaryObj.allKeys) {
             [dictionary setObject:[self getObjectInternalValue:[dictionaryObj objectForKey:key]] forKey:key];
         }
+        
         return dictionary;
     }
     
-    return [self dictionary];
+    return obj;
     
 }
 
