@@ -12,6 +12,12 @@
 
 @interface NSObject (Extension)
 
+@property (nonatomic, strong) NSIndexPath *objectIndexPath;
+
+- (NSIndexPath *)objectIndexPath;
+
+- (void)setObjectIndexPath:(NSIndexPath *)objectIndexPath;
+
 /**
  返回这个对象是否是一个有效的字符串,如果字符串等于 "(null)" 或 "<null>" 或 "null" 则判定为无效字符串.
 
@@ -25,7 +31,7 @@
 
  @return NSString
  */
-- (NSString *)jsonString;
+- (NSString *)stringWithJSON;
 
 
 /**
@@ -33,7 +39,7 @@
 
  @return NSString
  */
-- (NSString *)utf8String;
+- (NSString *)stringWithUTF8;
 
 /**
  返回该对象的属性和值的字典

@@ -12,6 +12,18 @@
 
 @implementation NSObject (Extension)
 
+@dynamic objectIndexPath;
+
+- (NSIndexPath *)objectIndexPath
+{
+    return objc_getAssociatedObject(self, @"objectIndexPath");
+}
+
+- (void)setObjectIndexPath:(NSIndexPath *)objectIndexPath
+{
+    objc_setAssociatedObject(self, @"objectIndexPath", objectIndexPath, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+
 - (BOOL)isValidString
 {
     BOOL validString = NO;
@@ -32,7 +44,7 @@
     return validString;
 }
 
-- (NSString *)jsonString
+- (NSString *)stringWithJSON
 {
     if ([NSJSONSerialization isValidJSONObject:self]) {
         NSData *data = [NSJSONSerialization dataWithJSONObject:self options:0 error:nil];
@@ -43,7 +55,7 @@
     
 }
 
-- (NSString *)utf8String
+- (NSString *)stringWithUTF8
 {
     
     BOOL isString = [self isKindOfClass:[NSString class]];
@@ -81,7 +93,7 @@
         
     } else {
         
-        return self.description.utf8String;
+        return self.description.stringWithUTF8;
         
     }
     
