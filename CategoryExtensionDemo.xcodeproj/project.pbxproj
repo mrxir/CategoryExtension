@@ -12,10 +12,14 @@
 		A307B9231ECE8B2500BE5235 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A307B9221ECE8B2500BE5235 /* ViewController.m */; };
 		A307B9261ECE8B2500BE5235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A307B9241ECE8B2500BE5235 /* Main.storyboard */; };
 		A307B9281ECE8B2500BE5235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A307B9271ECE8B2500BE5235 /* Assets.xcassets */; };
-		A307B92B1ECE8B2500BE5235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A307B9291ECE8B2500BE5235 /* LaunchScreen.storyboard */; };
 		A307B9341ECE8B6C00BE5235 /* LICENSES.txt in Resources */ = {isa = PBXBuildFile; fileRef = A307B9321ECE8B6C00BE5235 /* LICENSES.txt */; };
-		A307B9351ECE8B6C00BE5235 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A307B9331ECE8B6C00BE5235 /* README.md */; };
 		A307B93A1ECE8CE300BE5235 /* NSObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A307B9391ECE8CE300BE5235 /* NSObject+Extension.m */; };
+		A307B9A01ECEF4AB00BE5235 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A307B99F1ECEF4AB00BE5235 /* NSString+Extension.m */; };
+		A307B9A41ECF119100BE5235 /* UIControl+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A307B9A31ECF119100BE5235 /* UIControl+Extension.m */; };
+		A307B9A81ECF1B3900BE5235 /* UIApplication+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A307B9A71ECF1B3900BE5235 /* UIApplication+Extension.m */; };
+		A307B9AC1ED2851700BE5235 /* UIViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A307B9AB1ED2851700BE5235 /* UIViewController+Extension.m */; };
+		A307B9B51ED28B6800BE5235 /* UIStoryboard+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A307B9B41ED28B6800BE5235 /* UIStoryboard+Extension.m */; };
+		A307B9CB1ED3ED5400BE5235 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A307B9CA1ED3ED5400BE5235 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,12 +31,23 @@
 		A307B9221ECE8B2500BE5235 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A307B9251ECE8B2500BE5235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A307B9271ECE8B2500BE5235 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A307B92A1ECE8B2500BE5235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A307B92C1ECE8B2500BE5235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A307B9321ECE8B6C00BE5235 /* LICENSES.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSES.txt; sourceTree = "<group>"; };
 		A307B9331ECE8B6C00BE5235 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A307B9381ECE8CE300BE5235 /* NSObject+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extension.h"; sourceTree = "<group>"; };
 		A307B9391ECE8CE300BE5235 /* NSObject+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extension.m"; sourceTree = "<group>"; };
+		A307B99E1ECEF4AB00BE5235 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		A307B99F1ECEF4AB00BE5235 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		A307B9A21ECF119100BE5235 /* UIControl+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+Extension.h"; sourceTree = "<group>"; };
+		A307B9A31ECF119100BE5235 /* UIControl+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Extension.m"; sourceTree = "<group>"; };
+		A307B9A61ECF1B3900BE5235 /* UIApplication+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Extension.h"; sourceTree = "<group>"; };
+		A307B9A71ECF1B3900BE5235 /* UIApplication+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Extension.m"; sourceTree = "<group>"; };
+		A307B9AA1ED2851700BE5235 /* UIViewController+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extension.h"; sourceTree = "<group>"; };
+		A307B9AB1ED2851700BE5235 /* UIViewController+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extension.m"; sourceTree = "<group>"; };
+		A307B9B31ED28B6800BE5235 /* UIStoryboard+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+Extension.h"; sourceTree = "<group>"; };
+		A307B9B41ED28B6800BE5235 /* UIStoryboard+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+Extension.m"; sourceTree = "<group>"; };
+		A307B9C81ED3EBEA00BE5235 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A307B9CA1ED3ED5400BE5235 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +69,7 @@
 				A307B9361ECE8BA400BE5235 /* CategoryExtension */,
 				A307B91A1ECE8B2500BE5235 /* CategoryExtensionDemo */,
 				A307B9191ECE8B2500BE5235 /* Products */,
+				A307B9C71ED3EBE900BE5235 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,7 +90,7 @@
 				A307B9221ECE8B2500BE5235 /* ViewController.m */,
 				A307B9241ECE8B2500BE5235 /* Main.storyboard */,
 				A307B9271ECE8B2500BE5235 /* Assets.xcassets */,
-				A307B9291ECE8B2500BE5235 /* LaunchScreen.storyboard */,
+				A307B9CA1ED3ED5400BE5235 /* Launch Screen.storyboard */,
 				A307B92C1ECE8B2500BE5235 /* Info.plist */,
 				A307B91B1ECE8B2500BE5235 /* Supporting Files */,
 			);
@@ -92,6 +108,11 @@
 		A307B9361ECE8BA400BE5235 /* CategoryExtension */ = {
 			isa = PBXGroup;
 			children = (
+				A307B9B21ED28B5B00BE5235 /* UIStoryboard */,
+				A307B9A91ED2845100BE5235 /* UIViewController */,
+				A307B9A51ECF1B3900BE5235 /* UIApplication */,
+				A307B9A11ECF118500BE5235 /* UIControl */,
+				A307B99D1ECEF49600BE5235 /* NSString */,
 				A307B9371ECE8CA000BE5235 /* NSObject */,
 			);
 			path = CategoryExtension;
@@ -104,6 +125,59 @@
 				A307B9391ECE8CE300BE5235 /* NSObject+Extension.m */,
 			);
 			path = NSObject;
+			sourceTree = "<group>";
+		};
+		A307B99D1ECEF49600BE5235 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				A307B99E1ECEF4AB00BE5235 /* NSString+Extension.h */,
+				A307B99F1ECEF4AB00BE5235 /* NSString+Extension.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		A307B9A11ECF118500BE5235 /* UIControl */ = {
+			isa = PBXGroup;
+			children = (
+				A307B9A21ECF119100BE5235 /* UIControl+Extension.h */,
+				A307B9A31ECF119100BE5235 /* UIControl+Extension.m */,
+			);
+			path = UIControl;
+			sourceTree = "<group>";
+		};
+		A307B9A51ECF1B3900BE5235 /* UIApplication */ = {
+			isa = PBXGroup;
+			children = (
+				A307B9A61ECF1B3900BE5235 /* UIApplication+Extension.h */,
+				A307B9A71ECF1B3900BE5235 /* UIApplication+Extension.m */,
+			);
+			path = UIApplication;
+			sourceTree = "<group>";
+		};
+		A307B9A91ED2845100BE5235 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A307B9AA1ED2851700BE5235 /* UIViewController+Extension.h */,
+				A307B9AB1ED2851700BE5235 /* UIViewController+Extension.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		A307B9B21ED28B5B00BE5235 /* UIStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				A307B9B31ED28B6800BE5235 /* UIStoryboard+Extension.h */,
+				A307B9B41ED28B6800BE5235 /* UIStoryboard+Extension.m */,
+			);
+			path = UIStoryboard;
+			sourceTree = "<group>";
+		};
+		A307B9C71ED3EBE900BE5235 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A307B9C81ED3EBEA00BE5235 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,8 +240,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A307B9341ECE8B6C00BE5235 /* LICENSES.txt in Resources */,
-				A307B92B1ECE8B2500BE5235 /* LaunchScreen.storyboard in Resources */,
 				A307B9281ECE8B2500BE5235 /* Assets.xcassets in Resources */,
+				A307B9CB1ED3ED5400BE5235 /* Launch Screen.storyboard in Resources */,
 				A307B9261ECE8B2500BE5235 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -180,10 +254,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A307B9231ECE8B2500BE5235 /* ViewController.m in Sources */,
+				A307B9A01ECEF4AB00BE5235 /* NSString+Extension.m in Sources */,
 				A307B9201ECE8B2500BE5235 /* AppDelegate.m in Sources */,
+				A307B9AC1ED2851700BE5235 /* UIViewController+Extension.m in Sources */,
 				A307B93A1ECE8CE300BE5235 /* NSObject+Extension.m in Sources */,
-				A307B9351ECE8B6C00BE5235 /* README.md in Sources */,
+				A307B9A41ECF119100BE5235 /* UIControl+Extension.m in Sources */,
+				A307B9A81ECF1B3900BE5235 /* UIApplication+Extension.m in Sources */,
 				A307B91D1ECE8B2500BE5235 /* main.m in Sources */,
+				A307B9B51ED28B6800BE5235 /* UIStoryboard+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,14 +274,6 @@
 				A307B9251ECE8B2500BE5235 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A307B9291ECE8B2500BE5235 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A307B92A1ECE8B2500BE5235 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
