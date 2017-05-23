@@ -20,6 +20,7 @@
 		A307B9AC1ED2851700BE5235 /* UIViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A307B9AB1ED2851700BE5235 /* UIViewController+Extension.m */; };
 		A307B9B51ED28B6800BE5235 /* UIStoryboard+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A307B9B41ED28B6800BE5235 /* UIStoryboard+Extension.m */; };
 		A307B9CB1ED3ED5400BE5235 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A307B9CA1ED3ED5400BE5235 /* Launch Screen.storyboard */; };
+		A39203901ED4126D0019C04A /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A392038F1ED4126D0019C04A /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,8 @@
 		A307B9B41ED28B6800BE5235 /* UIStoryboard+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+Extension.m"; sourceTree = "<group>"; };
 		A307B9C81ED3EBEA00BE5235 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		A307B9CA1ED3ED5400BE5235 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		A392038E1ED4126D0019C04A /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		A392038F1ED4126D0019C04A /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,7 @@
 		A307B9361ECE8BA400BE5235 /* CategoryExtension */ = {
 			isa = PBXGroup;
 			children = (
+				A392038D1ED411A70019C04A /* UIView */,
 				A307B9B21ED28B5B00BE5235 /* UIStoryboard */,
 				A307B9A91ED2845100BE5235 /* UIViewController */,
 				A307B9A51ECF1B3900BE5235 /* UIApplication */,
@@ -178,6 +182,15 @@
 				A307B9C81ED3EBEA00BE5235 /* MapKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A392038D1ED411A70019C04A /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				A392038E1ED4126D0019C04A /* UIView+Extension.h */,
+				A392038F1ED4126D0019C04A /* UIView+Extension.m */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A39203901ED4126D0019C04A /* UIView+Extension.m in Sources */,
 				A307B9231ECE8B2500BE5235 /* ViewController.m in Sources */,
 				A307B9A01ECEF4AB00BE5235 /* NSString+Extension.m in Sources */,
 				A307B9201ECE8B2500BE5235 /* AppDelegate.m in Sources */,
