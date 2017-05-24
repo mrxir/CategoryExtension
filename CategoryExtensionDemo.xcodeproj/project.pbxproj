@@ -21,6 +21,7 @@
 		A307B9B51ED28B6800BE5235 /* UIStoryboard+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A307B9B41ED28B6800BE5235 /* UIStoryboard+Extension.m */; };
 		A307B9CB1ED3ED5400BE5235 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A307B9CA1ED3ED5400BE5235 /* Launch Screen.storyboard */; };
 		A39203901ED4126D0019C04A /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A392038F1ED4126D0019C04A /* UIView+Extension.m */; };
+		A3EF6A391ED569C600E52227 /* CategoryExtension.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A3EF6A381ED569C600E52227 /* CategoryExtension.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		A307B9CA1ED3ED5400BE5235 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		A392038E1ED4126D0019C04A /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		A392038F1ED4126D0019C04A /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		A3EF6A381ED569C600E52227 /* CategoryExtension.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CategoryExtension.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 		A307B90F1ECE8B2500BE5235 = {
 			isa = PBXGroup;
 			children = (
+				A3EF6A381ED569C600E52227 /* CategoryExtension.podspec */,
 				A307B9321ECE8B6C00BE5235 /* LICENSES.txt */,
 				A307B9331ECE8B6C00BE5235 /* README.md */,
 				A307B9361ECE8BA400BE5235 /* CategoryExtension */,
@@ -255,6 +258,7 @@
 				A307B9341ECE8B6C00BE5235 /* LICENSES.txt in Resources */,
 				A307B9281ECE8B2500BE5235 /* Assets.xcassets in Resources */,
 				A307B9CB1ED3ED5400BE5235 /* Launch Screen.storyboard in Resources */,
+				A3EF6A391ED569C600E52227 /* CategoryExtension.podspec in Resources */,
 				A307B9261ECE8B2500BE5235 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
